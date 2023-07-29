@@ -16,10 +16,10 @@ Let's delve into the exciting world of walking robots together!
 
 Updates!
 ======
-* **June 2023**: Presented poster for "**Force control for Robust Quadruped locomotion: A linear Policy Approach**" at ICRA 2023, London, UK
-* **January 2023**: Our paper "**Force control for Robust Quadruped locomotion: A linear Policy Approach**" got accepted at ICRA 2023
+* **June 2023**: Presented poster for the paper "Force control for Robust Quadruped locomotion: A linear Policy Approach" at ICRA 2023, London, UK
+* **January 2023**: Our paper "Force control for Robust Quadruped locomotion: A linear Policy Approach" got accepted at ICRA 2023
 * **August 2022**: Joined as a PhD student at RBCCPS, IISC, Bengaluru
-* **January 2022**: Our paper "**Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning**" got accepted at ICRA 2022
+* **January 2022**: Our paper "Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning" got accepted at ICRA 2022
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
