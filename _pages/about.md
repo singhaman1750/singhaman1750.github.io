@@ -14,7 +14,7 @@ I completed my B.Tech in Mechanical Engineering from Indian Institute of Technol
 
 Let's delve into the exciting world of walking robots together!
 
-News!
+Updates!
 ======
 * **June 2023**: Presented poster for "**Force control for Robust Quadruped locomotion: A linear Policy Approach**" at ICRA 2023, London, UK
 * **January 2023**: Our paper "**Force control for Robust Quadruped locomotion: A linear Policy Approach**" got accepted at ICRA 2023
