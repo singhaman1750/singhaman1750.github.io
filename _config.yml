@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Aman Singh"
 description              : &description "personal description"
 url                      : https://singhaman1750.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "https://singhaman1750.github.io" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "singhaman1750/singhaman1750.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Aman Singh"
-  avatar           : "Aman_profile_pic.jpg"
+  avatar           : "Aman_profile_pic.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Bangalore, India"
   employer         :
