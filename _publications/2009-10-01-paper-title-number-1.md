@@ -8,8 +8,9 @@ venue: 'International Conference on Robotics and Automation (ICRA)'
 paperurl: #'https://www.stochlab.com/papers/force_lp_ICRA_2023.pdf'
 citation: #'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
+
 ## Authors
-Aditya Shirwatkar*, Vamshi Kumar Kurva∗, Devaraju Vinoda, Aman Singh, Aditya Sagi, Himanshu Lodha, Bhavya Giri Goswami, Shivam Sood, Ketan Nehete, Shishir Kolathaya
+Aditya Shirwatkar*, Vamshi Kumar Kurva*, Devaraju Vinoda, Aman Singh, Aditya Sagi, Himanshu Lodha, Bhavya Giri Goswami, Shivam Sood, Ketan Nehete, Shishir Kolathaya
 
 ## Abstract
 This work presents a simple linear policy for direct force control for quadrupedal robot locomotion. The motivation
