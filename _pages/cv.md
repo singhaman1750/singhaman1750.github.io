@@ -11,22 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech in Mechanical Engineering, IIT Roorkee, 2019
+* Ph.D, RBCCPS, IISc Bengaluru, 2027 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July 2022 - Present: PhD Student
+  * Stoch Lab, RBCCPS, IISc
+  * Supervisor: Dr. Shishir NY
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Feb 2021 - June 2022: Research Assistant
+  * Stoch Lab, RBCCPS, IISc
+  * Duties included:
+      * Design of Legged robot named Stoch-3
+  * Supervisor: Dr. Shishir NY
+
+* July 2019 - Jan 2021: Formal Verification Engineer
+  * Oski Technology
+<!--
 Skills
 ======
 * Skill 1
@@ -57,3 +59,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
