@@ -1,14 +1,14 @@
 ---
-title: "Teaching experience 1"
+title: "Unconstrained Optimization"
 collection: teaching
-type: "Undergraduate course"
+type: "ISSS PMRF 2023-24 (Autumn)"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Online Course"
+date: 2023-09-21
+location: "IISc, Bengaluru"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This is course on Unconstrained Optimization. I am teaching this course as per the "Teaching hour" requirements of PMRF Fellowship (50 hours/week). 
 
 Heading 1
 ======
