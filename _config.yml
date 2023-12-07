@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Aman Singh"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Aman Singh"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Aman Singh"
   avatar           : "Aman_Profile_pic_2.jpg"
-  bio              : "PhD student, RBCCPS, IISc, Bengaluru"
+  bio              : "Legged Robotics Researcher @ IISc Bangalore"
   location         : "Bangalore, India"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
