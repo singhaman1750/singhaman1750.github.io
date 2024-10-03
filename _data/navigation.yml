@@ -13,8 +13,11 @@ main:
   #   url: /portfolio/
         
   - title: "Blog Posts"
-    url: https://www.youtube.com/@AmanSingh-1750
+    url: /year-archive/
     
+  - title: YouTube
+    url: https://www.youtube.com/@AmanSingh-1750
+
   - title: "CV"
     url: /cv/
     
