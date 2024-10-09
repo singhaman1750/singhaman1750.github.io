@@ -22,3 +22,4 @@ Join me as we explore the thrilling world of walking robots!
 * **Aug 2022**: Joined as a PhD student at RBCCPS, IISC, Bengaluru
 * **Jan 2022**: Our paper "Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning" got accepted at ICRA 2022
 
+# Publications
