@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi there!"
+title: " 👋🏼 Hi there!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -16,7 +16,7 @@ Join me as we explore the thrilling world of walking robots!
 
 -------------------------------------------
 
-## Updates:
+## 📌 Updates:
 
 * **Aug 2024**: Our Patent "Low-cost sandwiched robotic leg design for legged locomotion" got accepted by Indian Patent Office (IPO)
 * **June 2023**: Presented poster for the paper "Force control for Robust Quadruped locomotion: A linear Policy Approach" at ICRA 2023, London, UK
@@ -26,7 +26,7 @@ Join me as we explore the thrilling world of walking robots!
 
 --------------------------------
 
-## Publications:
+## 📜 Publications:
 ### **Force control for robust quadrupedal locomotion: A Linear Policy approach** 
 [[Paper](https://www.stochlab.com/papers/force_lp_ICRA_2023.pdf)] [[Video](https://youtu.be/k89QdImcqdo?feature=shared)] [[Website](https://www.stochlab.com/projects/LinPolForceControlQuad.html)] \
 **Published in**: _International Conference on Robotics and Automation (ICRA), 2023_ \
