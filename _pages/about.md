@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ":wave: Hi there!"
+title: "Hi there!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,7 +14,7 @@ I earned my B.Tech in Mechanical Engineering from IIT Roorkee in 2019 and initia
 
 Join me as we explore the thrilling world of walking robots!
 
-# :pushpin: Updates:
+# Updates:
 
 * **Aug 2024**: Our Patent "Low-cost sandwiched robotic leg design for legged locomotion" got accepted by Indian Patent Office (IPO)
 * **June 2023**: Presented poster for the paper "Force control for Robust Quadruped locomotion: A linear Policy Approach" at ICRA 2023, London, UK
@@ -22,7 +22,7 @@ Join me as we explore the thrilling world of walking robots!
 * **Aug 2022**: Joined as a PhD student at RBCCPS, IISC, Bengaluru
 * **Jan 2022**: Our paper "Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning" got accepted at ICRA 2022
 
-# :page_with_curl: Publications:
+# Publications:
 ## **Force control for robust quadrupedal locomotion: A Linear Policy approach** 
 [[Paper](https://www.stochlab.com/papers/force_lp_ICRA_2023.pdf)] [[Video](https://youtu.be/k89QdImcqdo?feature=shared)] [[Website](https://www.stochlab.com/projects/LinPolForceControlQuad.html)] \
 **Published in**: _International Conference on Robotics and Automation (ICRA), 2023_ \
