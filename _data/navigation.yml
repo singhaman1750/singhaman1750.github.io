@@ -1,7 +1,8 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://singhaman1750.github.io/#Publications
+    /*url: /publications/*/
 
   # - title: "Talks"
   #   url: /talks/    
