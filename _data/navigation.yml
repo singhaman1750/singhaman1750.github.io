@@ -1,12 +1,13 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: "https://scholar.google.co.in/citations?user=7PzY75AAAAAJ&hl=en&oi=sra"
+    # url: /publications/
 
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Teaching"
+    # url: /teaching/    
         
-  - title: "Blog Posts"
+  - title: "Blog"
     url: /year-archive/
     
   - title: YouTube
@@ -14,7 +15,10 @@ main:
 
   - title: "CV"
     url: /cv/
-    
+  
+  - title: "Teaching"
+    url: /courses_taught/
+
   # - title: "Guide"
   #   url: /markdown/
 
