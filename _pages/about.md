@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi there!"
+title: ":wave: Hi there!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,7 +14,7 @@ I earned my B.Tech in Mechanical Engineering from IIT Roorkee in 2019 and initia
 
 Join me as we explore the thrilling world of walking robots!
 
-# Updates:
+# :pushpin: Updates:
 
 * **Aug 2024**: Our Patent "Low-cost sandwiched robotic leg design for legged locomotion" got accepted by Indian Patent Office (IPO)
 * **June 2023**: Presented poster for the paper "Force control for Robust Quadruped locomotion: A linear Policy Approach" at ICRA 2023, London, UK
@@ -22,13 +22,13 @@ Join me as we explore the thrilling world of walking robots!
 * **Aug 2022**: Joined as a PhD student at RBCCPS, IISC, Bengaluru
 * **Jan 2022**: Our paper "Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning" got accepted at ICRA 2022
 
-# Publications
-* **Force control for robust quadrupedal locomotion: A Linear Policy approach** \
+# :page_with_curl: Publications:
+## **Force control for robust quadrupedal locomotion: A Linear Policy approach** 
 [[Paper](https://www.stochlab.com/papers/force_lp_ICRA_2023.pdf)] [[Video](https://youtu.be/k89QdImcqdo?feature=shared)] [[Website](https://www.stochlab.com/projects/LinPolForceControlQuad.html)] \
 **Published in**: _International Conference on Robotics and Automation (ICRA), 2023_ \
 **Authors**: _Aditya Shirwatkar*, Vamshi Kumar Kurva*, Devaraju Vinoda, __Aman Singh__, Aditya Sagi, Himanshu Lodha, Bhavya Giri Goswami, Shivam Sood, Ketan Nehete, Shishir Kolathaya_
 
-* **Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning** \
+## **Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning** 
 [[Paper](https://arxiv.org/abs/2112.02999)] [[Video](https://youtu.be/gonray3YGZI?feature=shared)] [[Website](https://umishra.me/DMD-MPC-RL/)] \
 **Published in**: _International Conference on Robotics and Automation (ICRA), 2022_ \
 **Authors**: _Utkarsh A. Mishra, Soumya R. Samineni, Prakhar Goel, Chandravaran Kunjeti, Himanshu Lodha, __Aman Singh__, Aditya Sagi, Shalabh Bhatnagar, Shishir Kolathaya_
