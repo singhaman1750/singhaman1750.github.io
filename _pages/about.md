@@ -23,10 +23,12 @@ Join me as we explore the thrilling world of walking robots!
 * **Jan 2022**: Our paper "Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning" got accepted at ICRA 2022
 
 # Publications
-* **Force control for robust quadrupedal locomotion: A Linear Policy approach** [[Paper](https://www.stochlab.com/papers/force_lp_ICRA_2023.pdf)] [[Video](https://youtu.be/k89QdImcqdo?feature=shared)] [[Website](https://www.stochlab.com/projects/LinPolForceControlQuad.html)] \
+* **Force control for robust quadrupedal locomotion: A Linear Policy approach** \
+[[Paper](https://www.stochlab.com/papers/force_lp_ICRA_2023.pdf)] [[Video](https://youtu.be/k89QdImcqdo?feature=shared)] [[Website](https://www.stochlab.com/projects/LinPolForceControlQuad.html)] \
 **Published in**: _International Conference on Robotics and Automation (ICRA), 2023_ \
 **Authors**: _Aditya Shirwatkar*, Vamshi Kumar Kurva*, Devaraju Vinoda, __Aman Singh__, Aditya Sagi, Himanshu Lodha, Bhavya Giri Goswami, Shivam Sood, Ketan Nehete, Shishir Kolathaya_
 
-* **Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning** [[Paper](https://arxiv.org/abs/2112.02999)] [[Video](https://youtu.be/gonray3YGZI?feature=shared)] [[Website](https://umishra.me/DMD-MPC-RL/)] \
+* **Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning** \
+[[Paper](https://arxiv.org/abs/2112.02999)] [[Video](https://youtu.be/gonray3YGZI?feature=shared)] [[Website](https://umishra.me/DMD-MPC-RL/)] \
 **Published in**: _International Conference on Robotics and Automation (ICRA), 2022_ \
 **Authors**: _Utkarsh A. Mishra, Soumya R. Samineni, Prakhar Goel, Chandravaran Kunjeti, Himanshu Lodha, __Aman Singh__, Aditya Sagi, Shalabh Bhatnagar, Shishir Kolathaya_
