@@ -36,3 +36,5 @@ To preview your site locally before pushing changes:
 If you receive a notification about a security vulnerability while using this repository, delete the Gemfile.lock file. For more detailed information, refer to Academic Pages Documentation.
 
 ## 🙏 Credits
+1. **GitHub Repository**: I forked from [Academic Pages](https://github.com/academicpages/academicpages.github.io).
+2. **YouTube Tutorial**: I followed Boris Meinardus's video tutorial available [here](https://youtu.be/8lJhXJCUYCc?feature=shared).
