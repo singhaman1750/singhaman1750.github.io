@@ -1,11 +1,11 @@
 # main links links
 main:
   - title: "Publications"
-    url: "https://scholar.google.co.in/citations?user=7PzY75AAAAAJ&hl=en&oi=sra"
-    # url: /publications/
+    url: /publications/
+    # url: "https://scholar.google.co.in/citations?user=7PzY75AAAAAJ&hl=en&oi=sra"
 
-  # - title: "Teaching"
-    # url: /teaching/    
+  # - title: "Projects"
+  #   url: /projects/    
         
   - title: "Blog"
     url: https://amansinghblog.github.io

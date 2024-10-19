@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![Stoch3-Image](../images/stoch3-photo.jpg)
+![Stoch3-Image](../images/stoch3.GIF)
 
 I'm PhD student at the Robert Bosch Centre for Cyber-Physical Systems [(RBCCPS)](https://cps.iisc.ac.in/) at IISc Bengaluru, where I work in the [Stochastic Robotics Lab](https://www.stochlab.com/) under Prof. Shishir N. Y. Kolathaya. My research focuses on enhancing the performance of legged robots through optimal mechanical design.
 
@@ -46,3 +46,11 @@ Join me as we explore the thrilling world of walking robots!
 [[Paper](https://arxiv.org/abs/2112.02999)] [[Video](https://youtu.be/gonray3YGZI?feature=shared)] [[Website](https://umishra.me/DMD-MPC-RL/)] \
 **Published in**: _International Conference on Robotics and Automation (ICRA), 2022_ \
 **Authors**: _Utkarsh A. Mishra, Soumya R. Samineni, Prakhar Goel, Chandravaran Kunjeti, Himanshu Lodha, __Aman Singh__, Aditya Sagi, Shalabh Bhatnagar, Shishir Kolathaya_
+
+--------------------------------
+
+# ⚙ Patents:
+### **Low-cost sandwiched robotic leg design for legged locomotion** 
+[[Patent-Certificate](/files/patent_sandwich_leg.pdf)] \
+**Published in**: _Indian Patent_ \
+**Authors**: **Aman Singh**_, Shishir Kolathaya_
