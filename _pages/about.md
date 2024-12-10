@@ -51,6 +51,6 @@ Join me as we explore the thrilling world of walking robots!
 
 # ⚙ Patents:
 ### **Low-cost sandwiched robotic leg design for legged locomotion** 
-[[Patent-Certificate](/files/patent_sandwich_leg.pdf)] \
+[[Patent-Certificate](/files/patent_sandwich_leg.pdf)][[Abstract](/files/patent_abstract_sandwich_leg.pdf)][[Claims](/files/patent_claims_sandwich_leg.pdf)][[Drawings](/files/patent_drawings_sandwich_leg.pdf)][Full-Doc: Coming soon] \
 **Published in**: _Indian Patent_ \
 **Authors**: **Aman Singh**_, Shishir Kolathaya_
