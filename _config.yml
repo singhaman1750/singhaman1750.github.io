@@ -26,8 +26,8 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: kacho_ga # city_lights # default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: kacho_ga # city_lights # dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -83,8 +83,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Learnings in robotics and research # blog_name will be displayed in your blog page
-blog_description: Few learnings from my journey in research and robotics
+blog_name: Robotics & Research # blog_name will be displayed in your blog page
+blog_description: A few learnings from my journey in research and robotics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
