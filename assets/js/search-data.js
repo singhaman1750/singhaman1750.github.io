@@ -503,11 +503,32 @@ ninja.data = [{
           window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/aman-singh-21782212b/", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/singhaman1750", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@AmanSingh-1750", "_blank");
         },
       },{
       id: 'light-theme',
