@@ -486,7 +486,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/Aman_s_Resume.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -494,13 +494,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%73%61%6D%61%6E@%69%69%73%63.%61%63.%69%6E", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -514,7 +507,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=7PzY75AAAAAJ", "_blank");
         },
       },{
         id: 'social-x',
