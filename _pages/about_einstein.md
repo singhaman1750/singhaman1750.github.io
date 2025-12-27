@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm PhD student at the Robert Bosch Centre for Cyber-Physical Systems [(RBCCPS)](https://cps.iisc.ac.in/) at [IISc Bengaluru](https://iisc.ac.in/), where I work in the [Stochastic Robotics Lab](https://www.stochlab.com/) under Prof. Shishir N. Y. Kolathaya. My research focuses on enhancing the performance of legged robots through optimal mechanical design.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I earned my B.Tech in Mechanical Engineering from IIT Roorkee in 2019 and initially worked as a Formal Verification Engineer at Oski Technology. Driven by my passion for robotics, I joined the Stochastic Robotics Lab in January 2021 and began my doctoral journey in August 2022.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Join me as we explore the thrilling world of walking robots!
