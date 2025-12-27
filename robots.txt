@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://singhaman1750.github.io/sitemap.xml
