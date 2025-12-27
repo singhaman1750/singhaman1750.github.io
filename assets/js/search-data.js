@@ -440,16 +440,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-dynamic-mirror-descent-based-model-predictive-control-for-accelerating-robot-learning-got-accepted-at-icra-2022-sparkles-smile",
+          title: 'Our paper Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-force-control-for-robust-quadruped-locomotion-a-linear-policy-approach-got-accepted-at-icra-2023",
+          title: 'Our paper Force control for Robust Quadruped locomotion: A linear Policy Approach got...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-patent-low-cost-sandwiched-robotic-leg-design-for-legged-locomotion-got-accepted-by-indian-patent-office-ipo-patent-certificate",
+          title: 'Our Patent Low-cost sandwiched robotic leg design for legged locomotion got accepted by...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
