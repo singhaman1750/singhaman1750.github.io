@@ -4,8 +4,6 @@ title: about
 permalink: /
 
 profile:
-  hero_intro: "Hi, I’m"
-  hero_name: "Aman Singh"
   align: right
   image: Aman_profile_pic.jpg
   image_circular: false # crops the image to make it circular
