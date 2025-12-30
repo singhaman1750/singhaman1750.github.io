@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Find the video links notes for the cources I have taken
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 ----------------------------------------------------------------
