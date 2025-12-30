@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Design of Legged robots
-description: Design of quadruped robots, biped and humanoid robots
+title: Design and development of quadruped robot
+description: 
 img: assets/img/publication_preview/stoch_3_diag.png
 importance: 1
-category: ongoing research
+category: completed research
 related_publications: true
 ---
 
