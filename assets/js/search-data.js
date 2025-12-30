@@ -394,21 +394,21 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-a-co-design-framework-for-energy-aware-monoped-jumping-with-detailed-actuator-modeling-got-accepted-at-international-conference-on-humanoid-robots-humanoids-2025",
           title: 'Our Paper A Co-Design Framework for Energy-Aware Monoped Jumping with Detailed Actuator Modeling...',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-design-of-legged-robots",
-          title: 'Design of Legged robots',
-          description: "Design of quadruped robots, biped and humanoid robots",
+          section: "News",},{id: "projects-design-and-development-of-quadruped-robot",
+          title: 'Design and development of quadruped robot',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/design_and_development_of_legged_robots/";
+            },},{id: "projects-design-of-optimal-robotic-actuators",
+          title: 'Design of Optimal Robotic Actuators',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/design_of_optimal_robotic_actuators/";
+            },},{id: "projects-optimal-design-of-legged-robots",
+          title: 'Optimal design of legged robots',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/optimal_design_of_legged_robots/";
             },},{
         id: 'social-cv',
         title: 'CV',
