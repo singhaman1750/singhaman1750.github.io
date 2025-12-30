@@ -13,6 +13,8 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<p> The entire list of publications is available on <a href="https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en">Google Scholar</a>.</p>
+
 <div class="publications">
 
 {% bibliography %}
