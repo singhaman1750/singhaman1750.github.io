@@ -3,10 +3,24 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Materials for courses you taught. Replace this text with your description.
-nav: false
+nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+----------------------------------------------------------------
 
-Organize your courses by years, topics, or universities, however you like!
+## Unconstrained Optimization
+
+**Syllabus**: 
+
+[ [Video-Lectures](https://youtube.com/playlist?list=PL5HnE_lHbcoiBOY5Mw5tCMbmRbocyd262&feature=shared) ] [ [Notes](https://github.com/singhaman1750/unconstrainedOptimizationNotes) ]
+
+-----------------------------------------------------------------
+
+## Robotics and Controls
+
+**Syllabus**: Python Basics, Coordinate Frames and Homogeneous Transformations, FK and IK (2D manipulators, Differential Drive), Jacobian and its applications, Dynamics and Euler-Lagrangian Equations, Optimization, Trajectory Optimization, and Trajectory Generation, Feedback Linearization, Linear Control, Understanding 3D Motions, D-H Algorithm for Manipulators
+
+[ [Video-Lectures](https://youtube.com/playlist?list=PL5HnE_lHbcogt_91Yy-5LGSsEhyLGdJ4Y&feature=shared) ] [ [Github: Notes and Codes](https://github.com/singhaman1750/Robotics-and-Controls) ]
+
+-----------------------------------------------------------------
