@@ -19,19 +19,16 @@ categories: sample-posts
 
 # Introduction
 
-Planetary gearboxes are one of the most widely used gearbox designs in mechanical engineering. 
-It is widely used in the field of robotics especially in development of joint actuators humanoid, quadruped and other legged robots. 
-The reason for its widespread popularity is its low-gearbox-inertia and high efficiency, which are ideal for robotic joints. 
-Apart from robotics, planetary gear systems are widely used in automotive industry to make automatic transmissions. 
-The versatile nature of the planetary gearboxes can be seen by the fact that it is used in transmissions of mechanical systems as big as aeroplane and helicopters and also in the 
-mechanical systems as small as hand drills. 
+Planetary gearboxes are one of the most widely used gearbox designs in mechanical engineering. They are extensively used in robotics, especially in the development of joint actuators for humanoid, quadruped, and other legged robots. The primary reasons for their widespread popularity are their low gearbox inertia and high efficiency, which make them ideal for robotic joint applications.
 
-The aim of this blog post is to derive the mathematical expression of the gear-ratio or the gear reduction of the planetary gear system as a function the gear parameters like number of teeth, and module. 
+Beyond robotics, planetary gear systems are widely used in the automotive industry, particularly in automatic transmissions. The versatility of planetary gearboxes is evident from the fact that they are used in mechanical systems ranging from large-scale applications such as airplanes and helicopters to compact devices like hand drills.
+
+The aim of this blog post is to derive the mathematical expression for the gear ratio (or gear reduction) of a planetary gear system as a function of key gear parameters such as the number of teeth and the module.
 
 # Design of Planetary Gearbox
-The Planetary gearbox design consists of mainly 4 different parts in total, see Fig 1. The sun gear, the planet gear, the ring gear and the carrier. The sun, ring and carrier have a common fixed axis of rotation. The sun and planet gears are external gears and the ring gear is an internal gear. The planet gear is meshed with the sun gear and ring gear on the diametrically opposite side. The carrier is a link joining the centre of the sun and the planet gear, it has a revolute joint to the centre of the planet as well as the sun gear. 
+A planetary gearbox design mainly consists of four different parts, as shown in Fig. 1: the sun gear, the planet gear, the ring gear, and the carrier. The sun gear, ring gear, and carrier share a common fixed axis of rotation. The sun and planet gears are external gears, while the ring gear is an internal gear. Each planet gear meshes with the sun gear on one side and with the ring gear on the diametrically opposite side. The carrier is a link that connects the center of the sun gear to the center of the planet gear, and it has revolute joints at the centers of both the sun and planet gears.
 
-In a particular configuration one of the sun, ring or carrier is fixed wrt to ground, one of the three parts is an input link and the third one is the output link. For eg. it is possible that we fix the sun gear, make the carrier as input link and ring gear as the output link. However, the most common configurtion that is used is fixing the ring gear, sending the input in the sun gear and taking the output from the carrier. This configuration is most commonly used because it gives highest value of gear ratio (output torque to input torque ratio) for the same number of teeth of the planet gears. In this blog, post we are going to find the gear ratio of this particular configuration only. 
+In a particular configuration, one of the sun gear, ring gear, or carrier is fixed with respect to the ground, one of the remaining components acts as the input, and the third acts as the output. For example, the sun gear can be fixed, the carrier can serve as the input, and the ring gear can be the output. However, the most commonly used configuration fixes the ring gear, applies the input at the sun gear, and takes the output from the carrier. This configuration is widely used because it provides the highest gear ratio (output torque to input torque ratio) for a given set of gear teeth. In this blog post, we derive the gear ratio for this specific configuration only.
 
 # Gear ratio calculation
 
