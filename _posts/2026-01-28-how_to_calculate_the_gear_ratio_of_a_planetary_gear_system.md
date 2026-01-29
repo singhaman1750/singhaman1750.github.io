@@ -3,7 +3,7 @@ layout: post
 title: Planetary Gearbox - How to Calculate Gear-ratio?
 date: 2026-01-28 13:32:20 +0300
 description: 
-thumbnail: assets/img/how-to-write-intro-of-a-research-paper.jpeg # Add image post (optional)
+thumbnail: assets/img/Planetary_gear_set_stylized.png # Add image post (optional)
 tags: [gears, planetary_gear, actuators]
 categories: sample-posts
 ---
@@ -17,7 +17,7 @@ Apart from robotics, planetary gear systems are widely used in automotive indust
 The versatile nature of the planetary gearboxes can be seen by the fact that it is used in transmissions of mechanical systems as big as aeroplane and helicopters and also in the 
 mechanical systems as small as hand drills. 
 
-This blog piece helps in deriving the gear-ratio or the gear reduction of the planetary gear system. 
+The aim of this blog post is to derive the mathematical expression of the gear-ratio or the gear reduction of the planetary gear system as a function the gear parameters like number of teeth, and module. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,11 +29,9 @@ This blog piece helps in deriving the gear-ratio or the gear reduction of the pl
 </div>
 
 # Design of Planetary Gearbox
-    1.1 Input
-    1.2 Output
-    1.3 Ring fixed
-The Planetary gearbox design consists of mainly 4 different parts in total. The sun gear, the planet gear, the ring gear and the carrier.
-In this blog piece
+The Planetary gearbox design consists of mainly 4 different parts in total. The sun gear, the planet gear, the ring gear and the carrier. The sun, ring and carrier have a common fixed axis of rotation. The sun and planet gears are external gears and the ring gear is an internal gear. The planet gear is meshed with the sun gear and ring gear on the diametrically opposite side. The carrier is a link joining the centre of the sun and the planet gear, it has a revolute joint to the centre of the planet as well as the sun gear. 
+
+In a particular configuration one of the sun, ring or carrier is fixed wrt to ground, one of the three parts is an input link and the third one is the output link. For eg. it is possible that we fix the sun gear, make the carrier as input link and ring gear as the output link. However, the most common configurtion that is used is fixing the ring gear, sending the input in the sun gear and taking the output from the carrier. This configuration is most commonly used because it gives highest value of gear ratio (output torque to input torque ratio) for the same number of teeth of the planet gears. In this blog, post we are going to find the gear ratio of this particular configuration only. 
 
 # Gear ratio calculation
 
@@ -118,27 +116,33 @@ A similar thing can be done at point $B$. The velocity of planet gear particles 
 ## Solving the Velocity equations
 In the Eq.$\eqref{eq:velocity_balance_bw_sun_and_planet}$ and Eq.$\eqref{eq:velocity_balance_bw_planet_and_ring}$, $\omega_s$ (input velocity) and the radiis are the known values. The $\omega_{p}$ and $\omega_{c}$ are unknown values. We have a system of 2 equations with 2 variables. To solve the equations you can just add Eq.$\eqref{eq:velocity_balance_bw_sun_and_planet}$ and Eq.$\eqref{eq:velocity_balance_bw_planet_and_ring}$ to get the value of $\omega_{c}$ and subtract them to get $\omega_{p}$. The solution of the equations should look like the following:
 
-\begin{equation}
-\label{eq:sol_1}
-\omega_{c} = \frac{R_{s}}{2(R_{s} + R_{p})} \omega_{s} \
+$$
+\omega_{c} = \frac{R_{s}}{2(R_{s} + R_{p})} \omega_{s}
+$$
+
+$$
 \omega_{p} = \frac{R_{s}}{2R_{p}} \omega_{s} 
-\end{equation}
+$$
 
-Using the Eq.$eqref{eq:module_relation}$ we can write the following:
+Using the Eq.$\eqref{eq:module_relation}$ we can write the following:
 
-\begin{equation}
-\label{eq:sol_2}
-\omega_{c} = \frac{N_{s}}{2(N_{s} + N_{p})} \omega_{s} \
+$$
+\omega_{c} = \frac{N_{s}}{2(N_{s} + N_{p})} \omega_{s}
+$$
+
+$$
 \omega_{p} = \frac{N_{s}}{2N_{p}} \omega_{s} 
-\end{equation}
+$$
 
-Using the Eq.$eqref{eq:geometric_relation}$ we can say that $2(N_{s} + N_{p}) = N_{s} + N_{r}$ and $2N_{p} = N_{r}-N_{s}$. Hence:
+Using the Eq.$\eqref{eq:geometric_relation}$ we can say that $2(N_{s} + N_{p}) = N_{s} + N_{r}$ and $2N_{p} = N_{r}-N_{s}$. Hence:
 
-\begin{equation}
-\label{eq:sol_2}
-\omega_{c} = \frac{N_{s}}{(N_{s} + N_{r})} \omega_{s} \
+$$
+\omega_{c} = \frac{N_{s}}{(N_{s} + N_{r})} \omega_{s}
+$$
+
+$$
 \omega_{p} = \frac{N_{s}}{(N_{r}-N_{s})} \omega_{s} 
-\end{equation}
+$$
 
 The gear reduction can be given as:
 \begin{equation}
@@ -159,7 +163,7 @@ $$
 \tau_{s} \omega_{s} = \tau_{c} \omega_{c}
 $$
 
-where $\tau_{s}$ and $\tau_{c}$ are torque input in sun and torque output from the carrier. The above equation can be wrritten as:
+where $\tau_{s}$ and $\tau_{c}$ are torque input in sun and torque output from the carrier. The above equation can be written as:
 
 $$
 \frac{\tau_{s}}{\tau_{c}} =  \frac{\omega_{c}}{\omega_{s}} = \frac{N_{s}}{(N_{s} + N_{r})}
@@ -174,13 +178,11 @@ The gear-ratio can now be given as:
 
 We can observe the following points:
 
-    1. We can see that as $N_{r} \geq N_{s}$ the output torque is higher than the input torque. 
-    2. We can also see that the gear-ratio is independent of the module of the gears, it only depends on the number of teeth.
+- We can see that as $N_{r} \geq N_{s}$ the output torque is higher than the input torque. 
+- We can also see that the gear-ratio is independent of the module of the gears, it only depends on the number of teeth.
 
 ## Conclusion
-1. Explain what this blog did
-2. Further reading
-3. References
+In this blog post we derived the gear-reduction ratio of the planetary gear system. We saw that the final gear ratio is independent of the module of the gears and only depends on the number of teeth of ring and sun gear. 
 
 
 
