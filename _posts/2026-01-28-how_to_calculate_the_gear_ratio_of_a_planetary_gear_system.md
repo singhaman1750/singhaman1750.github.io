@@ -8,6 +8,15 @@ tags: [gears, planetary_gear, actuators]
 categories: sample-posts
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Planetary_gear_set.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Fig 1: Planetary gear system
+</div>
+
 # Introduction
 
 Planetary gearboxes are one of the most widely used gearbox designs in mechanical engineering. 
@@ -19,17 +28,8 @@ mechanical systems as small as hand drills.
 
 The aim of this blog post is to derive the mathematical expression of the gear-ratio or the gear reduction of the planetary gear system as a function the gear parameters like number of teeth, and module. 
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Planetary_gear_set.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Fig 1: Planetary gear system
-</div>
-
 # Design of Planetary Gearbox
-The Planetary gearbox design consists of mainly 4 different parts in total. The sun gear, the planet gear, the ring gear and the carrier. The sun, ring and carrier have a common fixed axis of rotation. The sun and planet gears are external gears and the ring gear is an internal gear. The planet gear is meshed with the sun gear and ring gear on the diametrically opposite side. The carrier is a link joining the centre of the sun and the planet gear, it has a revolute joint to the centre of the planet as well as the sun gear. 
+The Planetary gearbox design consists of mainly 4 different parts in total, see Fig 1. The sun gear, the planet gear, the ring gear and the carrier. The sun, ring and carrier have a common fixed axis of rotation. The sun and planet gears are external gears and the ring gear is an internal gear. The planet gear is meshed with the sun gear and ring gear on the diametrically opposite side. The carrier is a link joining the centre of the sun and the planet gear, it has a revolute joint to the centre of the planet as well as the sun gear. 
 
 In a particular configuration one of the sun, ring or carrier is fixed wrt to ground, one of the three parts is an input link and the third one is the output link. For eg. it is possible that we fix the sun gear, make the carrier as input link and ring gear as the output link. However, the most common configurtion that is used is fixing the ring gear, sending the input in the sun gear and taking the output from the carrier. This configuration is most commonly used because it gives highest value of gear ratio (output torque to input torque ratio) for the same number of teeth of the planet gears. In this blog, post we are going to find the gear ratio of this particular configuration only. 
 
@@ -153,7 +153,7 @@ The gear reduction can be given as:
 We can see that $N_{s} \leq (N_{s} + N_{r})$, which means $\omega_{c} \leq \omega_{s}$. So, the output angular velocity is less than the input velocity. This is why it called a gear "reducer".
 
 ## Torque Relation
-In ideal no energy condition the input power to the gearbox should be equal to the output power. So:
+In ideal no energy loss condition the input power to the gearbox should be equal to the output power. So:
 
 $$
 \tau_{in} \omega_{in} = \tau_{out} \omega_{out}
@@ -176,6 +176,13 @@ The gear-ratio can now be given as:
 \frac{\tau_{c}}{\tau_{s}} =  \frac{(N_{s} + N_{r})}{N_{s}} = 1 + \frac{N_{r}}{N_{s}} 
 \end{equation}
 
+The output torque value can be given as follows:
+
+\begin{equation}
+\label{eq:output_torque_relation}
+\frac{\tau_{c}} = \large(1 + \frac{N_{r}}{N_{s}}\large) \tau_{s}
+\end{equation}
+
 We can observe the following points:
 
 - We can see that as $N_{r} \geq N_{s}$ the output torque is higher than the input torque. 
@@ -183,6 +190,4 @@ We can observe the following points:
 
 ## Conclusion
 In this blog post we derived the gear-reduction ratio of the planetary gear system. We saw that the final gear ratio is independent of the module of the gears and only depends on the number of teeth of ring and sun gear. 
-
-
 
