@@ -180,7 +180,7 @@ The output torque value can be given as follows:
 
 \begin{equation}
 \label{eq:output_torque_relation}
-\frac{\tau_{c}} = \large(1 + \frac{N_{r}}{N_{s}}\large) \tau_{s}
+\tau_{c} = \large(1 + \frac{N_{r}}{N_{s}}\large) \tau_{s}
 \end{equation}
 
 We can observe the following points:
