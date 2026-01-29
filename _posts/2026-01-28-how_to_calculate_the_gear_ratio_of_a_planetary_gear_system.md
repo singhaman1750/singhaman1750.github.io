@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Planetary Gearbox -- Calculation of Gear-ratio
+title: Planetary Gearbox - How to Calculate Gear-ratio?
 date: 2026-01-28 13:32:20 +0300
 description: 
 thumbnail: assets/img/how-to-write-intro-of-a-research-paper.jpeg # Add image post (optional)
@@ -47,13 +47,16 @@ $$
 m = \frac{PCD}{N} = \frac{2R}{N}
 $$
 
-where $m$ is the module of a gear, $PCD$ is the Pitch circle diameter of the gear, $R$ is the radius of the gear, and $N$ is the number of teeth of the gear.
-The above expression be re-written as follows after some rearrangement:
+Rearranging the above equation results in:
 
 \begin{equation}
 \label{eq:module_relation}
 \frac{m}{2} N = R
 \end{equation}
+
+where $m$ is the module of a gear, $PCD$ is the Pitch circle diameter of the gear, $R$ is the radius of the gear, and $N$ is the number of teeth of the gear.
+
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -98,31 +101,81 @@ $$
 
 The negative sign shows that the velocity is in negative (left) direction. 
  
-The velocity of sun gear particles at point $A$ is $V_{a}^{sun} = - \omega_{s} R_{s}$ and that of planet gear particles is $V_{a}^{planet} = V_{c} + \omega_{p} R_{p} = - \omega_{c} (R_{s} + R_{p}) + \omega_{p} R_{p}$. Because, the sun and planet are meshed at $A$ these velocities should be equal. So, we get the following equation:
+The velocity of sun gear particles at point $A$ is $V_{a}^{sun} = - \omega_{s} R_{s}$ and that of planet gear particles is $V_{a}^{planet} = V_{c} + \omega_{p} R_{p}$. Because, the sun and planet are meshed at $A$ these velocities should be equal. So, we get the following equation:
 
 \begin{equation}
 \label{eq:velocity_balance_bw_sun_and_planet}
 (-\omega_{c} (R_{s} + R_{p})) + \omega_{p} R_{p} = - \omega_{s} R_{s}
 \end{equation}
 
-A similar thing can be done at point $B$. The velocity of planet gear particles at point $B$ is  $V_{b}^{planet} = V_{c} - \omega_{p} R_{p} = - \omega_{c} (R_{s} + R_{p}) - \omega_{p} R_{p}$ and that of ring gear particles is $V_{b}^{ring} = \omega_r R_{r} = 0$ as ring is fixed. Equating these two, we get:
+A similar thing can be done at point $B$. The velocity of planet gear particles at point $B$ is  $V_{b}^{planet} = V_{c} - \omega_{p} R_{p}$ and that of ring gear particles is $V_{b}^{ring} = \omega_r R_{r} = 0$ as ring is fixed. Equating these two, we get:
 
 \begin{equation}
 \label{eq:velocity_balance_bw_planet_and_ring}
 (- \omega_{c} (R_{s} + R_{p}) - \omega_{p} R_{p}) = 0
 \end{equation}
 
+## Solving the Velocity equations
 In the Eq.$\eqref{eq:velocity_balance_bw_sun_and_planet}$ and Eq.$\eqref{eq:velocity_balance_bw_planet_and_ring}$, $\omega_s$ (input velocity) and the radiis are the known values. The $\omega_{p}$ and $\omega_{c}$ are unknown values. We have a system of 2 equations with 2 variables. To solve the equations you can just add Eq.$\eqref{eq:velocity_balance_bw_sun_and_planet}$ and Eq.$\eqref{eq:velocity_balance_bw_planet_and_ring}$ to get the value of $\omega_{c}$ and subtract them to get $\omega_{p}$. The solution of the equations should look like the following:
 
 \begin{equation}
 \label{eq:sol_1}
-\omega_{c} = \frac{R_{s}}{2(R_{s} + R_{p})} \omega_{s} 
+\omega_{c} = \frac{R_{s}}{2(R_{s} + R_{p})} \omega_{s} \
 \omega_{p} = \frac{R_{s}}{2R_{p}} \omega_{s} 
 \end{equation}
 
-4.3 Solve the equation and write the expression of gear-ratio
+Using the Eq.$eqref{eq:module_relation}$ we can write the following:
 
-7. Analyse the gear-ratio
+\begin{equation}
+\label{eq:sol_2}
+\omega_{c} = \frac{N_{s}}{2(N_{s} + N_{p})} \omega_{s} \
+\omega_{p} = \frac{N_{s}}{2N_{p}} \omega_{s} 
+\end{equation}
+
+Using the Eq.$eqref{eq:geometric_relation}$ we can say that $2(N_{s} + N_{p}) = N_{s} + N_{r}$ and $2N_{p} = N_{r}-N_{s}$. Hence:
+
+\begin{equation}
+\label{eq:sol_2}
+\omega_{c} = \frac{N_{s}}{(N_{s} + N_{r})} \omega_{s} \
+\omega_{p} = \frac{N_{s}}{(N_{r}-N_{s})} \omega_{s} 
+\end{equation}
+
+The gear reduction can be given as:
+\begin{equation}
+\label{eq:gear_reduction}
+\frac{\omega_{c}}{\omega_{s}} = \frac{N_{s}}{(N_{s} + N_{r})}
+\end{equation}
+
+We can see that $N_{s} \leq (N_{s} + N_{r})$, which means $\omega_{c} \leq \omega_{s}$. So, the output angular velocity is less than the input velocity. This is why it called a gear "reducer".
+
+## Torque Relation
+In ideal no energy condition the input power to the gearbox should be equal to the output power. So:
+
+$$
+\tau_{in} \omega_{in} = \tau_{out} \omega_{out}
+$$
+
+$$
+\tau_{s} \omega_{s} = \tau_{c} \omega_{c}
+$$
+
+where $\tau_{s}$ and $\tau_{c}$ are torque input in sun and torque output from the carrier. The above equation can be wrritten as:
+
+$$
+\frac{\tau_{s}}{\tau_{c}} =  \frac{\omega_{c}}{\omega_{s}} = \frac{N_{s}}{(N_{s} + N_{r})}
+$$
+
+The gear-ratio can now be given as:
+
+\begin{equation}
+\label{eq:gear_ratio}
+\frac{\tau_{c}}{\tau_{s}} =  \frac{(N_{s} + N_{r})}{N_{s}} = 1 + \frac{N_{r}}{N_{s}} 
+\end{equation}
+
+We can observe the following points:
+
+    1. We can see that as $N_{r} \geq N_{s}$ the output torque is higher than the input torque. 
+    2. We can also see that the gear-ratio is independent of the module of the gears, it only depends on the number of teeth.
 
 ## Conclusion
 1. Explain what this blog did
