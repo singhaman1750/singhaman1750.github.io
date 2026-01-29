@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to calculate the gear ratio of a planetary gearbox
+title: Planetary Gearbox -- Calculation of Gear-ratio
 date: 2026-01-28 13:32:20 +0300
 description: 
 thumbnail: assets/img/how-to-write-intro-of-a-research-paper.jpeg # Add image post (optional)
@@ -23,30 +23,45 @@ This blog piece helps in deriving the gear-ratio or the gear reduction of the pl
     </div>
 </div>
 <div class="caption">
-    Planetary gear system
+    Fig 1: Planetary gear system
 </div>
 
-## Body
-1. Explaining the planetary gearbox design
+## Explaining the planetary gearbox design
     1.1 Input
     1.2 Output
     1.3 Ring fixed
 The Planetary gearbox design consists of mainly 4 different parts in total. The sun gear, the planet gear, the ring gear and the carrier.
-In this blog piec
+In this blog piece
 
-3. Module, Diameter and number of teeth relation
+## Deriving the gear-ratio
+
+### Relation between module, number of teeth and radius of a gear
+
+The module of a spur gear is calculated by dividing the Pitch circle diameter with the number of teeth of the gear. 
+In a planetary gearbox, the module of the sun, the ring and the planet gear should be same in order to get proper meshing of the gears. 
+The mathematical relation of the module, the diameter and the number of teeth of the gear is given as:
 
 $$
 m = \frac{PCD}{N} = \frac{2R}{N}
 $$
 
+where $m$ is the module of a gear, $PCD$ is the Pitch circle diameter of the gear, $R$ is the radius of the gear, and $N$ is the number of teeth of the gear.
+The above expression be re-written as follows after some rearrangement:
+
 $$
 \frac{m}{2} N = R
 $$
 
-where $m$ is the module of a gear, $PCD$ is the Pitch circle diameter of the gear, and $N$ is the number of teeth of the gear.
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Planetary_gear_set_geometric_and_velocity_diagrams.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Fig 2: Planetary Gear System, (a) Geometric relation, (b) Velocity diagram
+</div>
 
-4. Geometric relation of a planetary gearbox
+### Geometric relation of a planetary gearbox
 
 $$
 R_{s} + 2 R_{p} = R_{r}
