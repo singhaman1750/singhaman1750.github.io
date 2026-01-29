@@ -14,7 +14,7 @@ Planetary gearboxes are one of the most widely used gearbox designs in mechanica
 It is widely used in the field of robotics especially in development of joint actuators humanoid, quadruped and other legged robots. 
 The reason for its widespread popularity is its low-gearbox-inertia and high efficiency, which are ideal for robotic joints. 
 Apart from robotics, planetary gear systems are widely used in automotive industry to make automatic transmissions. 
-The versatile nature of the planetary gearboxes can be seen by the fact that it is used in transmissions of mechanical systems as big as airplane and helicopters and also in the 
+The versatile nature of the planetary gearboxes can be seen by the fact that it is used in transmissions of mechanical systems as big as aeroplane and helicopters and also in the 
 mechanical systems as small as hand drills. 
 
 This blog piece helps in deriving the gear-ratio or the gear reduction of the planetary gear system. 
@@ -90,7 +90,7 @@ To calculate the gear ratio we will have to write the relation between the angul
 
 Meshing together can be looked as if the sun and planet gear move without slipping at point $A$, and planet gear moves without slipping (wrt fixed ring) at point $A$.
 
-Let's assume that sun, planet, ring and carrier are rotating with angular velocities $\omega_{s}$, $\omega_{p}$, $\omega_{r}$, and $\omega_{c}$ in counter-clockwise (CCW) direction. Also, let the velocity of the geometrical centre of the planet gears be $V_{c}$. The velocity of the centre of the planet gear, i.e. point $C$ in Fig. 2(b) can be given as follows:
+Let's assume that sun, planet, ring and carrier are rotating with angular velocities $\omega_{s}$, $\omega_{p}$, $\omega_{r}$, and $\omega_{c}$ in counter-clockwise (CCW) direction. Please note, $\omega_r = 0$ as ring gear is fixed. Also, let the velocity of the points $A$, $B$ and $C$ in Fig 2(b) be $V_{a}$, $V_{b}$ and $V_{c}$. The velocity of the centre of the planet gear, i.e. point $C$ in Fig. 2(b) can be given as follows:
 
 $$
 V_{c} = - \omega_{c} R_c = - \omega_{c} (R_{s} + R_{p})
@@ -98,28 +98,26 @@ $$
 
 The negative sign shows that the velocity is in negative (left) direction. 
  
-The velocity of sun gear particles at point $A$ is $\omega_{s} R_{s}$ and that of planet gear particles is $( - \omega_{c} (R_{s} + R_{p})+ \omega_{p} R_{p} ) $. 
-
-4.1 Equate the velocity at the sun to planet interaction
-
-$$
-(-V_{c}) + \omega_{p} R_{p} = \omega_{s} R_{s}
-$$
+The velocity of sun gear particles at point $A$ is $V_{a}^{sun} = - \omega_{s} R_{s}$ and that of planet gear particles is $V_{a}^{planet} = V_{c} + \omega_{p} R_{p} = - \omega_{c} (R_{s} + R_{p}) + \omega_{p} R_{p}$. Because, the sun and planet are meshed at $A$ these velocities should be equal. So, we get the following equation:
 
 \begin{equation}
 \label{eq:velocity_balance_bw_sun_and_planet}
-\omega_{p} R_{p} - \omega_{c} (R_{s} + R_{p}) = \omega_{s} R_{s}
+(-\omega_{c} (R_{s} + R_{p})) + \omega_{p} R_{p} = - \omega_{s} R_{s}
 \end{equation}
 
-4.2 Equate the velocity of the planet to the ring gear
-
-$$
-(-V_{c}) - \omega_{p} R_{p} = \omega_{r} R_{r} = 0
-$$
+A similar thing can be done at point $B$. The velocity of planet gear particles at point $B$ is  $V_{b}^{planet} = V_{c} - \omega_{p} R_{p} = - \omega_{c} (R_{s} + R_{p}) - \omega_{p} R_{p}$ and that of ring gear particles is $V_{b}^{ring} = \omega_r R_{r} = 0$ as ring is fixed. Equating these two, we get:
 
 \begin{equation}
 \label{eq:velocity_balance_bw_planet_and_ring}
-\omega_{c} (R_{s} + R_{p}) + \omega_{p} R_{p} = 0
+(- \omega_{c} (R_{s} + R_{p}) - \omega_{p} R_{p}) = 0
+\end{equation}
+
+In the Eq.$\eqref{eq:velocity_balance_bw_sun_and_planet}$ and Eq.$\eqref{eq:velocity_balance_bw_planet_and_ring}$, $\omega_s$ (input velocity) and the radiis are the known values. The $\omega_{p}$ and $\omega_{c}$ are unknown values. We have a system of 2 equations with 2 variables. To solve the equations you can just add Eq.$\eqref{eq:velocity_balance_bw_sun_and_planet}$ and Eq.$\eqref{eq:velocity_balance_bw_planet_and_ring}$ to get the value of $\omega_{c}$ and subtract them to get $\omega_{p}$. The solution of the equations should look like the following:
+
+\begin{equation}
+\label{eq:sol_1}
+\omega_{c} = \frac{R_{s}}{2(R_{s} + R_{p})} \omega_{s} 
+\omega_{p} = \frac{R_{s}}{2R_{p}} \omega_{s} 
 \end{equation}
 
 4.3 Solve the equation and write the expression of gear-ratio
