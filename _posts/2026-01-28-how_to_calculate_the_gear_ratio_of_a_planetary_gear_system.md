@@ -166,11 +166,11 @@ $$
 \frac{\tau_{s}}{\tau_{c}} =  \frac{\omega_{c}}{\omega_{s}} = \frac{N_{s}}{(N_{s} + N_{r})}
 $$
 
-The gear-ratio can now be given as:
+The gear-ratio ($GR$) can now be given as:
 
 \begin{equation}
 \label{eq:gear_ratio}
-\frac{\tau_{c}}{\tau_{s}} =  \frac{(N_{s} + N_{r})}{N_{s}} = 1 + \frac{N_{r}}{N_{s}} 
+GR = \frac{\tau_{c}}{\tau_{s}} =  \frac{(N_{s} + N_{r})}{N_{s}} = 1 + \frac{N_{r}}{N_{s}} 
 \end{equation}
 
 The output torque value can be given as follows:
