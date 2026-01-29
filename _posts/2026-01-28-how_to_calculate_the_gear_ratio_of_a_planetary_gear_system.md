@@ -48,9 +48,10 @@ $$
 where $m$ is the module of a gear, $PCD$ is the Pitch circle diameter of the gear, $R$ is the radius of the gear, and $N$ is the number of teeth of the gear.
 The above expression be re-written as follows after some rearrangement:
 
-$$
+\begin{equation}
+\label{eq:module_relation}
 \frac{m}{2} N = R
-$$
+\end{equation}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -63,15 +64,24 @@ $$
 
 ### Geometric relation of a planetary gearbox
 
+The geometry of the sun, planet and ring gear follow a relationship, see Fig 2 (a). The radius of the ring gear is equal to the sun of radius of sun gear and twice the radius of planet gear. 
+This relation can be mathematically represented as follows:
+
 $$
 R_{s} + 2 R_{p} = R_{r}
 $$
-$$
-\frac{m}{2} N_{s} + 2 \frac{m}{2} N_{p} = \frac{m}{2} N_{r}
-$$
-$$
+
+where $R_{s}$, $R_{p}$, and $R_{r}$ are the radii of the sun, planet and ring gears, respectively. 
+
+From Eq.$\eqref{eq:module_relation}$, we can see that the Number of teeth of each gear is directly proportional to the radius of the gear. The constant $m/2$ has to be same for all the three (sun, planet and ring) gear,
+to ensure proper meshing. So, we can write that:
+
+\begin{equation}
+\label{eq:geometric_relation}
 N_{s} + 2 N_{p} = N_{r}
-$$
+\end{equation}
+
+where  $N_{s}$, $N_{p}$, and $N_{r}$ are the Number of teeth of sun, planet and ring gears, respectively. 
 
 5. Calculate the gear ratio of the planetary gearbox
 4.0 Diagram of a planetary gearbox
