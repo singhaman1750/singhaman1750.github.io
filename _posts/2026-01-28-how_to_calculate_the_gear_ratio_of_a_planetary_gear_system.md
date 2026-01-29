@@ -150,7 +150,7 @@ The gear reduction can be given as:
 \frac{\omega_{c}}{\omega_{s}} = \frac{N_{s}}{(N_{s} + N_{r})}
 \end{equation}
 
-We can see that $N_{s} \leq (N_{s} + N_{r})$, which means $\omega_{c} \leq \omega_{s}$. So, the output angular velocity is less than the input velocity. This is why it called a gear "reducer".
+We can see that $N_{s} < (N_{s} + N_{r})$, which means $\omega_{c} < \omega_{s}$. So, the output angular velocity is less than the input velocity. This is why it called a gear "reducer".
 
 ## Torque Relation
 In ideal no energy loss condition the input power to the gearbox should be equal to the output power. So:
@@ -185,7 +185,7 @@ The output torque value can be given as follows:
 
 We can observe the following points:
 
-- We can see that as $N_{r} \geq N_{s}$ the output torque is higher than the input torque. 
+- We can see that as $N_{r} > N_{s}$ the output torque is higher than the input torque. 
 - We can also see that the gear-ratio is independent of the module of the gears, it only depends on the number of teeth.
 
 ## Conclusion
