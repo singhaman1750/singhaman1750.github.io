@@ -57,7 +57,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-comparison-between-external-and-internal-single-stage-planetary-gearbox-actuators-for-legged-robots-got-accepted-at-international-conference-on-advances-in-robotics-air-2025",
           title: 'Our Paper Comparison between External and Internal Single Stage Planetary gearbox actuators for...',
           description: "",
-          section: "News",},{id: "news-our-paper-a-co-design-framework-for-energy-aware-monoped-jumping-with-detailed-actuator-modeling-got-accepted-at-international-conference-on-humanoid-robots-humanoids-2025",
+          section: "News",},{id: "news-our-paper-a-co-design-framework-for-energy-aware-monoped-jumping-with-detailed-actuator-modeling-got-accepted-at-ieee-international-conference-on-humanoid-robots-humanoids-2025",
           title: 'Our Paper A Co-Design Framework for Energy-Aware Monoped Jumping with Detailed Actuator Modeling...',
           description: "",
           section: "News",},{id: "news-we-are-excited-to-announce-that-our-paper-compact-computational-optimization-and-automated-modular-design-of-planetary-actuators-got-accepted-at-icra-2026",
