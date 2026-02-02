@@ -60,7 +60,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-a-co-design-framework-for-energy-aware-monoped-jumping-with-detailed-actuator-modeling-got-accepted-at-ieee-international-conference-on-humanoid-robots-humanoids-2025",
           title: 'Our Paper A Co-Design Framework for Energy-Aware Monoped Jumping with Detailed Actuator Modeling...',
           description: "",
-          section: "News",},{id: "news-we-are-excited-to-announce-that-our-paper-compact-computational-optimization-and-automated-modular-design-of-planetary-actuators-got-accepted-at-icra-2026",
+          section: "News",},{id: "news-we-are-excited-to-announce-that-our-paper-compact-computational-optimization-and-automated-modular-design-of-planetary-actuators-got-accepted-at-ieee-icra-2026",
           title: '🎉 We are excited to announce that our paper COMPAct: Computational Optimization and...',
           description: "",
           section: "News",},{id: "projects-design-and-development-of-quadruped-robot",
