@@ -23,24 +23,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## Hi, I’m Aman Singh
-
 I am a **PhD researcher in Robotics** at the **[IISc, Bengaluru](https://iisc.ac.in/)**, working in the **[Stochastic Robotics Lab](https://www.stochlab.com/)** under the **Centre for Cyber-Physical Systems [(CPS)](https://cps.iisc.ac.in/)**, advised by **[Dr. Shishir N Y Kolathaya](https://www.shishirny.com/)**.
 
 I completed my **B.Tech in Mechanical Engineering** from **[IIT Roorkee](https://www.iitr.ac.in/)**, where I developed a strong interest in mechanical design, dynamics, and robotics, which led me toward research-driven hardware development.
 
 My research focuses on **robotic actuator design, planetary gearbox optimization, and hardware-centric co-design for legged robots**. I work on building **practical, reproducible systems**, combining computational optimization, automated CAD, and experimental validation.
 
----
+📄 Find my **[CV here]()**.
 
-### Links
+Follow me on **[Google Scholar](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)** / **[GitHub](https://github.com/singhaman1750)** / **[LinkedIn](https://www.linkedin.com/in/aman-singh-21782212b/)** / **[ResearchGate](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)** / **[Twitter / X](https://x.com/singhaman1750)** for updates on my latest research and projects.
 
-- 📄 **CV:** [Link to CV]()
-- 📚 **Google Scholar:** [Link](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)
-- 💻 **GitHub:** [Link](https://github.com/singhaman1750)
-- 🔗 **LinkedIn:** [Link](https://www.linkedin.com/in/aman-singh-21782212b/)
-- 🧪 **ResearchGate:** [Link](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)
-- 🐦 **Twitter / X (optional):** [Link](https://x.com/singhaman1750)
-
----
 
