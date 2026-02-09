@@ -23,8 +23,24 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm PhD student at the Robert Bosch Centre for Cyber-Physical Systems [(RBCCPS)](https://cps.iisc.ac.in/) at [IISc Bengaluru](https://iisc.ac.in/), where I work in the [Stochastic Robotics Lab](https://www.stochlab.com/) under Prof. Shishir N. Y. Kolathaya. My research focuses on enhancing the performance of legged robots through optimal mechanical design.
+## Hi, I’m Aman Singh
 
-I earned my B.Tech in Mechanical Engineering from IIT Roorkee in 2019 and initially worked as a Formal Verification Engineer at Oski Technology. Driven by my passion for robotics, I joined the Stochastic Robotics Lab in January 2021 and began my doctoral journey in August 2022.
+I am a **PhD researcher in Robotics** at the **[IISc, Bengaluru](https://iisc.ac.in/)**, working in the **[Stochastic Robotics Lab](https://www.stochlab.com/)** under the **Centre for Cyber-Physical Systems [(CPS)](https://cps.iisc.ac.in/)**, advised by **[Dr. Shishir N Y Kolathaya](https://www.shishirny.com/)**.
 
-Join me as we explore the thrilling world of walking robots!
+I completed my **B.Tech in Mechanical Engineering** from **[IIT Roorkee](https://www.iitr.ac.in/)**, where I developed a strong interest in mechanical design, dynamics, and robotics, which led me toward research-driven hardware development.
+
+My research focuses on **robotic actuator design, planetary gearbox optimization, and hardware-centric co-design for legged robots**. I work on building **practical, reproducible systems**, combining computational optimization, automated CAD, and experimental validation.
+
+---
+
+### Links
+
+- 📄 **CV:** [Link to CV]()
+- 📚 **Google Scholar:** [Link](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)
+- 💻 **GitHub:** [Link](https://github.com/singhaman1750)
+- 🔗 **LinkedIn:** [Link](https://www.linkedin.com/in/aman-singh-21782212b/)
+- 🧪 **ResearchGate:** [Link](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)
+- 🐦 **Twitter / X (optional):** [Link](https://x.com/singhaman1750)
+
+---
+
