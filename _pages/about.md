@@ -29,6 +29,6 @@ I completed my **B.Tech in Mechanical Engineering** from **[IIT Roorkee](https:/
 
 My research focuses on **robotic actuator design, planetary gearbox optimization, and hardware-centric co-design for legged robots**. I work on building **practical, reproducible systems**, combining computational optimization, automated CAD, and experimental validation.
 
-Find my **[CV here](/assets/pdf/Aman_s_Resume.pdf)**.
-
-Follow me on **[Google Scholar](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)** / **[GitHub](https://github.com/singhaman1750)** / **[LinkedIn](https://www.linkedin.com/in/aman-singh-21782212b/)** / **[ResearchGate](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)** / **[Twitter / X](https://x.com/singhaman1750)** for updates on my latest research and projects.
+Find my **[CV here](/assets/pdf/Aman_s_Resume.pdf)**. 
+ 
+Follow me on **[Google Scholar](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)** / **[GitHub](https://github.com/singhaman1750)** / **[LinkedIn](https://www.linkedin.com/in/aman-singh-21782212b/)** / **[ResearchGate](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)** / **[Twitter / X](https://x.com/singhaman1750)** for updates on my latest research and projects.     
