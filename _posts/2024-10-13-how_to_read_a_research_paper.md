@@ -5,7 +5,7 @@ date: 2024-10-13 01:00:20 +0300
 description: 2nd blog # Add post description (optional)
 thumbnail: assets/img/Research-paper-with-sticky-notes.jpg # Add image post (optional)
 tags: [research, research-paper, reading]
-categories: sample-posts
+categories: research
 ---
 
 As a PhD researcher, reading research papers is an integral part of my daily routine. Not only does it keep me informed about developments in my field, 

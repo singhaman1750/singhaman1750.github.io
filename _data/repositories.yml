@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - name: singhaman1750
+    image: /assets/img/repo_preview/github_repo_profile_pic.jpg
+    description:
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - name: singhaman1750/Legged-Robots
+    image: /assets/img/repo_preview/Legged_robots_repo_image.png
+    description: Repo containing resources related to legged robots. It includes research papers, code implementations, video lists, and other relevant materials to help researchers and enthusiasts in the field of legged robotics.
+  - name: singhaman1750/COMPAct
+    image: /assets/img/repo_preview/COMPAct_intro_diag.png
+    description: Repo containing code for Design optimization and CAD automation for 3D printed Planetary Actuators for legged robots. 

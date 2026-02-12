@@ -5,7 +5,7 @@ date: 2026-01-28 13:32:20 +0300
 description: 
 thumbnail: assets/img/Planetary_gear_set_stylized.png # Add image post (optional)
 tags: [gears, planetary_gear, actuators]
-categories: sample-posts
+categories: gear_and_gearboxes
 ---
 
 <div class="row mt-3">
