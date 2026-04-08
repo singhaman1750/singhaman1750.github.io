@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-02'
+  last_updated: '2026-04-08'
 papers:
   7PzY75AAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -26,6 +26,6 @@ papers:
     title: Reducing Onboard Processing Time for Path Planning in Dynamically Evolving Polygonal Maps
     year: '2023'
   7PzY75AAAAAJ:u5HHmVD_uO8C:
-    citations: 4
+    citations: 5
     title: Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning
     year: '2022'
