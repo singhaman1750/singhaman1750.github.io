@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-17'
 papers:
   7PzY75AAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -9,8 +9,12 @@ papers:
     citations: 3
     title: 'A Chain-Driven, Sandwich-Legged Quadruped Robot: Design and Experimental Analysis'
     year: '2025'
-  7PzY75AAAAAJ:UeHWp8X0CEIC:
+  7PzY75AAAAAJ:IjCSPb-OGe4C:
     citations: 0
+    title: A Co-Design Framework for High-Performance Jumping of a Five-Bar Monoped with Actuator Optimization
+    year: '2026'
+  7PzY75AAAAAJ:UeHWp8X0CEIC:
+    citations: 1
     title: 'COMPAct: Computational Optimization and Automated Modular design of Planetary Actuators'
     year: '2025'
   7PzY75AAAAAJ:d1gkVwhDpl0C:
