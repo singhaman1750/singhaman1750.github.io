@@ -31,4 +31,4 @@ My research focuses on **robotic actuator design, planetary gearbox optimization
 
 Find my **[CV here](/assets/pdf/Aman_s_Resume.pdf)**. 
  
-Follow me on **[Google Scholar](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)** / **[GitHub](https://github.com/singhaman1750)** / **[LinkedIn](https://www.linkedin.com/in/aman-singh-21782212b/)** / **[ResearchGate](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)** / **[Twitter / X](https://x.com/singhaman1750)** for updates on my latest research and projects.     
+Follow me on **[Google Scholar](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)** / **[GitHub](https://github.com/singhaman1750)** / **[LinkedIn](https://www.linkedin.com/in/aman-singh-21782212b/)** / **[ResearchGate](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)** / **[Twitter / X](https://x.com/singhaman1750)** / **[YouTube](https://www.youtube.com/@robomathslab)** for updates on my latest research and projects.     
