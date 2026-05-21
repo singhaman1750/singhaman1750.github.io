@@ -70,7 +70,7 @@ ninja.data = [{
           section: "News",},{id: "news-we-are-excited-to-announce-that-our-paper-compact-computational-optimization-and-automated-modular-design-of-planetary-actuators-got-accepted-at-ieee-icra-2026",
           title: '🎉 We are excited to announce that our paper COMPAct: Computational Optimization and...',
           description: "",
-          section: "News",},{id: "news-our-paper-a-co-design-framework-for-high-performance-jumping-of-a-five-bar-monoped-with-actuator-optimization-has-been-accepted-at-ieee-asme-international-conference-on-advanced-intelligent-mechatronics-2026-aim-26",
+          section: "News",},{id: "news-our-paper-a-co-design-framework-for-high-performance-jumping-of-a-five-bar-monoped-with-actuator-optimization-has-been-accepted-at-ieee-asme-international-conference-on-advanced-intelligent-mechatronics-2026-aim-26-sparkles-smile",
           title: 'Our paper A Co-Design Framework for High-Performance Jumping of a Five-Bar Monoped with...',
           description: "",
           section: "News",},{id: "projects-design-and-development-of-quadruped-robot",
