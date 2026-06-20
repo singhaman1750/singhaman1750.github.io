@@ -32,6 +32,9 @@ Mechanical design papers were also fewer in number. One area that had a lot of e
 
 So basically: fewer quadrupeds than I wanted, more humanoids than expected, and manipulation everywhere.
 
+{% include figure.liquid loading="eager" path="assets/img/ICRA_26_research_discussion.jpg" class="img-fluid rounded z-depth-1" %}
+Glimpses of Researchers discussing their research
+
 ## The Industry Section
 
 The industry section was probably the best part of the conference for me. There were many robotics companies from around the world showcasing their robots, products, and solutions. This section felt very different from the poster sessions. Posters are useful, but seeing actual robots moving around hits differently. Humanoids were everywhere here as well. Companies like **Unitree**, **LimX Dynamics**, and several others were showing humanoid and biped robots.
@@ -41,6 +44,9 @@ A lot of companies were showcasing upper-body humanoid robots performing tasks u
 There were also many companies working on **multi-fingered robotic hands**, which matched the research trends at the conference. It felt like the whole conference was saying: hands are hard, but everyone wants to solve them. Several companies, including **Unitree**, **Direct Drive Robotics**, and **Rainbow Robotics**, were showing quadrupeds as well. That made me happy.
 
 However, some big names were missing. There was no **Boston Dynamics**, **RAI Lab**, **Agility Robotics**, **ANYbotics**, or **Ghost Robotics**. Their absence was noticeable, and because of that, ICRA felt slightly lacking. Many companies were also there to recruit people. They were clearly looking for talented researchers, which was interesting to see. Since actuator design is one of my core areas of interest, I talked to several actuator companies about their products. For me, that was one of the most useful parts of the industry section.
+
+{% include figure.liquid loading="eager" path="assets/img/ICRA_26_industry.jpg" class="img-fluid rounded z-depth-1" %}
+Glimpses of the industry section
 
 ## Presenting My Work
 
