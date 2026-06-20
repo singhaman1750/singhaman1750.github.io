@@ -3,7 +3,7 @@ layout: post
 title: My ICRA 2026 Experience - Robots, Posters, Humanoids, and Research Overload
 date: 2026-06-20 01:00:20 +0530
 description: My experience attending and presenting at ICRA 2026 in Vienna
-thumbnail: assets/img/icra-2026-vienna.jpg
+thumbnail: assets/img/Planetary_gear_set_stylized.png
 tags: []
 categories: research
 ---
