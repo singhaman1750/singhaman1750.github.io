@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-06'
+  last_updated: '2026-06-24'
 papers:
   7PzY75AAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -13,6 +13,10 @@ papers:
     citations: 0
     title: A Co-Design Framework for High-Performance Jumping of a Five-Bar Monoped with Actuator Optimization
     year: '2026'
+  7PzY75AAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: Low-cost sandwiched robotic leg design for legged locomotion
+    year: '2024'
   7PzY75AAAAAJ:UeHWp8X0CEIC:
     citations: 1
     title: 'COMPAct: Computational Optimization and Automated Modular design of Planetary Actuators'
@@ -30,7 +34,7 @@ papers:
     title: Reducing Onboard Processing Time for Path Planning in Dynamically Evolving Polygonal Maps
     year: '2023'
   7PzY75AAAAAJ:u5HHmVD_uO8C:
-    citations: 5
+    citations: 6
     title: Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning
     year: '2022'
   7PzY75AAAAAJ:zYLM7Y9cAGgC:
