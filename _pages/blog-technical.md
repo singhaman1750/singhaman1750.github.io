@@ -3,16 +3,6 @@ layout: default
 permalink: /blog/technical/
 title: technical
 nav: false
-pagination:
-  enabled: true
-  category: Technical
-  permalink: /blog/technical/page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
 ---
 
 <div class="post">
