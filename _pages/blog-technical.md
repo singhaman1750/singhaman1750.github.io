@@ -2,7 +2,8 @@
 layout: default
 permalink: /blog/technical/
 title: technical
-nav: false
+nav: true
+nav_order: 3.5
 ---
 
 <div class="post">

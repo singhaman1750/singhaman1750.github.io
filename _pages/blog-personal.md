@@ -2,7 +2,8 @@
 layout: default
 permalink: /blog/personal/
 title: personal
-nav: false
+nav: true
+nav_order: 3.6
 ---
 
 <div class="post">
