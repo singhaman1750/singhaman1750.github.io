@@ -576,16 +576,20 @@ footer.sticky-bottom {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
 
   ul {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    display: flow-root;
+    align-items: center;
 
     p,
     li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
+      padding: 0.5rem;
       color: var(--global-text-color-light);
     }
   }
