@@ -23,21 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-technical-blog",
-          title: "technical blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-personal-blog",
-          title: "personal blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-repositories",
+        },{id: "dropdown-academic-blog",
+              title: "academic blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "dropdown-personal-blog",
+              title: "personal blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "nav-repositories",
           title: "repositories",
           description: "This page contains my GitHub repositories.",
           section: "Navigation",
