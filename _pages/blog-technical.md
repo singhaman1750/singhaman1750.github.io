@@ -1,15 +1,14 @@
 ---
 layout: default
 permalink: /blog/technical/
-title: technical blog
-nav: true
-nav_order: 3.5
+title: academic blog
+nav: false
 ---
 
 <div class="post">
 
   <div class="header-bar">
-    <h1>Technical</h1>
+    <h1>Academic</h1>
     <h2>Research and robotics write-ups</h2>
   </div>
 

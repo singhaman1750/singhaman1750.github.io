@@ -30,7 +30,7 @@ pagination:
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">
-      <li><i class="fa-solid fa-tag fa-sm"></i> <a href="{{ '/blog/technical/' | relative_url }}">technical</a></li>
+      <li><i class="fa-solid fa-tag fa-sm"></i> <a href="{{ '/blog/technical/' | relative_url }}">academic</a></li>
       <p>&bull;</p>
       <li><i class="fa-solid fa-tag fa-sm"></i> <a href="{{ '/blog/personal/' | relative_url }}">personal</a></li>
     </ul>

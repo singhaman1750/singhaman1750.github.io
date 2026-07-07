@@ -2,8 +2,7 @@
 layout: default
 permalink: /blog/personal/
 title: personal blog
-nav: true
-nav_order: 3.6
+nav: false
 ---
 
 <div class="post">
@@ -17,7 +16,7 @@ nav_order: 3.6
     <ul class="p-0 m-0">
       <li><i class="fa-solid fa-list"></i> <a href="{{ '/blog/' | relative_url }}">all posts</a></li>
       <p>&bull;</p>
-      <li><i class="fa-solid fa-tag fa-sm"></i> <a href="{{ '/blog/technical/' | relative_url }}">technical</a></li>
+      <li><i class="fa-solid fa-tag fa-sm"></i> <a href="{{ '/blog/technical/' | relative_url }}">academic</a></li>
     </ul>
   </div>
 
