@@ -4,8 +4,7 @@ title: Planetary Gearbox - How to Calculate Gear-ratio?
 date: 2026-01-28 13:32:20 +0300
 description: 
 thumbnail: assets/img/Planetary_gear_set_stylized.png # Add image post (optional)
-tags: [gears, planetary_gear, actuators]
-categories: gear_and_gearboxes
+categories: Technical
 ---
 
 <div class="row mt-3">

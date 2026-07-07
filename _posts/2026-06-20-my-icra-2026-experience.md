@@ -4,8 +4,7 @@ title: My ICRA 2026 Experience - Robots, Posters, Humanoids, and Research Overlo
 date: 2026-06-20 01:00:20 +0530
 description: My experience attending and presenting at ICRA 2026 in Vienna
 thumbnail: assets/img/ICRA_aman_pp3.jpg
-tags: []
-categories: research
+categories: Non-technical
 ---
 
 I visited **ICRA 2026**, from **1 June to 5 June**. ICRA stands for **International Conference on Robotics and Automation**. It is one of the biggest and most prestigious robotics conferences in the world. Every year, world-renowned researchers, scientists, students, and companies attend ICRA to share the latest advancements in different areas of robotics. This year, ICRA was held in **Vienna, Austria**. I was attending the conference because my paper was accepted there. I had to present a poster for this work at the conference.
