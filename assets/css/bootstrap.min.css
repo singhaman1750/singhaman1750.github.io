@@ -480,6 +480,11 @@ pre code {
   }
 }
 @media (min-width: 768px) {
+  .row-cols-md-2 > * {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
   .row-cols-md-3 > * {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
@@ -1657,6 +1662,9 @@ a.close.disabled {
 }
 .mt-0 {
   margin-top: 0 !important;
+}
+.mt-1 {
+  margin-top: 0.25rem !important;
 }
 .mr-1 {
   margin-right: 0.25rem !important;

@@ -51,6 +51,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
+        },{id: "nav-resources",
+          title: "resources",
+          description: "A curated library of papers, videos, tools and references for legged robotics.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resources/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -98,6 +105,186 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/optimal_design_of_legged_robots/";
+            },},{id: "resources-design-optimization-and-co-design-optimization",
+          title: 'Design Optimization and Co-Design Optimization',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/co-design/design-and-codesign-optimization/";
+            },},{id: "resources-actuators-amp-robot-components",
+          title: 'Actuators &amp;amp; Robot Components',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/actuators-and-robot-components/";
+            },},{id: "resources-agricultural-robotics",
+          title: 'Agricultural Robotics',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/agricultural-robotics/";
+            },},{id: "resources-defence-ground-unmanned-systems",
+          title: 'Defence Ground / Unmanned Systems',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/defence-ground-unmanned-systems/";
+            },},{id: "resources-drones-uavs",
+          title: 'Drones / UAVs',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/drones-uavs/";
+            },},{id: "resources-industrial-robot-arms-cobots-manipulation",
+          title: 'Industrial Robot Arms / Cobots / Manipulation',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/industrial-robot-arms-cobots-manipulation/";
+            },},{id: "resources-inspection-hazardous-environment-robotics",
+          title: 'Inspection / Hazardous-Environment Robotics',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/inspection-hazardous-environment-robotics/";
+            },},{id: "resources-legged-amp-humanoid-robotics",
+          title: 'Legged &amp;amp; Humanoid Robotics',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/legged-and-humanoid-robotics/";
+            },},{id: "resources-marine-robotics-rov-auv-usv",
+          title: 'Marine Robotics - ROV / AUV / USV',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/marine-robotics-rov-auv-usv/";
+            },},{id: "resources-medical-surgical-rehabilitation-robotics",
+          title: 'Medical / Surgical / Rehabilitation Robotics',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/medical-surgical-rehabilitation-robotics/";
+            },},{id: "resources-warehouse-amr-mobile-robotics",
+          title: 'Warehouse / AMR / Mobile Robotics',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/companies/warehouse-amr-mobile-robotics/";
+            },},{id: "resources-conferences-amp-journals",
+          title: 'Conferences &amp;amp; Journals',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/conferences-and-journals/";
+            },},{id: "resources-professors-amp-labs",
+          title: 'Professors &amp;amp; Labs',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/professors-and-labs/";
+            },},{id: "resources-robotics-companies",
+          title: 'Robotics Companies',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/community/robotics-companies/";
+            },},{id: "resources-interesting-behaviors-in-quadrupeds",
+          title: 'Interesting Behaviors in Quadrupeds',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/control/interesting-behaviors-in-quadrupeds/";
+            },},{id: "resources-learning-based-control-humanoids",
+          title: 'Learning-based Control: Humanoids',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/control/learning-based-control-humanoids/";
+            },},{id: "resources-learning-based-control-quadrupeds",
+          title: 'Learning-based Control: Quadrupeds',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/control/learning-based-control-quadrupeds/";
+            },},{id: "resources-model-based-control-quadrupeds",
+          title: 'Model-based Control: Quadrupeds',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/control/model-based-control-quadrupeds/";
+            },},{id: "resources-articles-installs-study-technical",
+          title: 'Articles (Installs / Study / Technical)',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/hands-on/articles/";
+            },},{id: "resources-books",
+          title: 'Books',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/hands-on/books/";
+            },},{id: "resources-random-cool-stuff",
+          title: 'Random Cool Stuff',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/hands-on/random-cool-stuff/";
+            },},{id: "resources-useful-github-repositories",
+          title: 'Useful GitHub Repositories',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/hands-on/useful-github-repositories/";
+            },},{id: "resources-video-lectures",
+          title: 'Video Lectures',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/hands-on/video-lectures/";
+            },},{id: "resources-workshops",
+          title: 'Workshops',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/hands-on/workshops/";
+            },},{id: "resources-youtube-project-videos",
+          title: 'Youtube Project / Videos',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/hands-on/youtube-projects-and-videos/";
+            },},{id: "resources-buying-hardware-amp-parts",
+          title: 'Buying Hardware &amp;amp; Parts',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/hardware/buying-hardware-and-parts/";
+            },},{id: "resources-cycloidal-gearboxes",
+          title: 'Cycloidal Gearboxes',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/cycloidal-gearboxes/";
+            },},{id: "resources-design-patents",
+          title: 'Design Patents',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/design-patents/";
+            },},{id: "resources-design-principles-for-legged-robots",
+          title: 'Design Principles for Legged Robots',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/design-principles/";
+            },},{id: "resources-dual-motor-actuators",
+          title: 'Dual-Motor Actuators',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/dual-motor-actuators/";
+            },},{id: "resources-humanoid-robot-design",
+          title: 'Humanoid Robot Design',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/humanoid-robot-design/";
+            },},{id: "resources-modelling-actuator-dynamics",
+          title: 'Modelling actuator dynamics',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/modelling-actuator-dynamics/";
+            },},{id: "resources-motor-theory-amp-dyno-testing",
+          title: 'Motor Theory &amp;amp; Dyno / Testing',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/motor-theory-and-dyno-testing/";
+            },},{id: "resources-planetary-gearboxes",
+          title: 'Planetary Gearboxes',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/planetary-gearboxes/";
+            },},{id: "resources-quadruped-robot-design-papers",
+          title: 'Quadruped Robot Design Papers',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/quadruped-robot-design/";
+            },},{id: "resources-series-elastic-actuators-sea",
+          title: 'Series Elastic Actuators (SEA)',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mechanical-design/series-elastic-actuators/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
