@@ -12,3 +12,8 @@ node_modules/
 vendor
 .idea
 .venv
+
+# Generated from the Legged-Robots repo by bin/sync_resources.py.
+# Rebuilt on every deploy; never commit.
+_resources/
+_data/resources.yml

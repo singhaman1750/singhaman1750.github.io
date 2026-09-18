@@ -143,6 +143,8 @@ newsletter:
 collections:
   books:
     output: true
+  resources: # generated from the Legged-Robots repo by bin/sync_resources.py
+    output: true
   news:
     defaults:
       layout: post
