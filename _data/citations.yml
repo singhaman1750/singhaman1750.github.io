@@ -1,28 +1,32 @@
 metadata:
-  last_updated: '2026-05-06'
+  last_updated: '2026-08-05'
 papers:
   7PzY75AAAAAJ:2osOgNQ5qMEC:
-    citations: 1
+    citations: 2
     title: Comparison between External and Internal Single Stage Planetary gearbox actuators for legged robots
     year: '2025'
   7PzY75AAAAAJ:9yKSN-GCB0IC:
-    citations: 3
+    citations: 4
     title: 'A Chain-Driven, Sandwich-Legged Quadruped Robot: Design and Experimental Analysis'
     year: '2025'
   7PzY75AAAAAJ:IjCSPb-OGe4C:
     citations: 0
     title: A Co-Design Framework for High-Performance Jumping of a Five-Bar Monoped with Actuator Optimization
     year: '2026'
+  7PzY75AAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: Low-cost sandwiched robotic leg design for legged locomotion
+    year: '2024'
   7PzY75AAAAAJ:UeHWp8X0CEIC:
     citations: 1
     title: 'COMPAct: Computational Optimization and Automated Modular design of Planetary Actuators'
     year: '2025'
   7PzY75AAAAAJ:d1gkVwhDpl0C:
-    citations: 6
+    citations: 7
     title: 'Force control for Robust Quadruped Locomotion: A Linear Policy Approach'
     year: '2023'
   7PzY75AAAAAJ:qjMakFHDy7sC:
-    citations: 0
+    citations: 1
     title: A Co-Design Framework for Energy-Aware Monoped Jumping with Detailed Actuator Modeling
     year: '2025'
   7PzY75AAAAAJ:u-x6o8ySG0sC:
@@ -30,7 +34,7 @@ papers:
     title: Reducing Onboard Processing Time for Path Planning in Dynamically Evolving Polygonal Maps
     year: '2023'
   7PzY75AAAAAJ:u5HHmVD_uO8C:
-    citations: 5
+    citations: 6
     title: Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning
     year: '2022'
   7PzY75AAAAAJ:zYLM7Y9cAGgC:
