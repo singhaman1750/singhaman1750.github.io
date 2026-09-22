@@ -33,4 +33,13 @@ I completed my **B.Tech in Mechanical Engineering** from **[IIT Roorkee](https:/
 
 My research focuses on **robotic actuator design, planetary gearbox optimization, and hardware-centric co-design for legged robots**. I work on building **practical, reproducible systems**, combining computational optimization, automated CAD, and experimental validation.
 
-Follow me on **[Google Scholar](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)** / **[GitHub](https://github.com/singhaman1750)** / **[LinkedIn](https://www.linkedin.com/in/aman-singh-21782212b/)** / **[ResearchGate](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)** / **[Twitter / X](https://x.com/singhaman1750)** / **[YouTube](https://www.youtube.com/@robomathslab)** for updates on my latest research and projects.     
+Follow me for updates on my latest research and projects:
+
+<div class="social-buttons">
+  <a class="social-btn" href="https://scholar.google.com/citations?user=7PzY75AAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i><span>Google Scholar</span></a>
+  <a class="social-btn" href="https://github.com/singhaman1750" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+  <a class="social-btn" href="https://www.linkedin.com/in/aman-singh-21782212b/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
+  <a class="social-btn" href="https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf" target="_blank" rel="noopener noreferrer"><i class="ai ai-researchgate"></i><span>ResearchGate</span></a>
+  <a class="social-btn" href="https://x.com/singhaman1750" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i><span>Twitter / X</span></a>
+  <a class="social-btn" href="https://www.youtube.com/@robomathslab" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i><span>YouTube</span></a>
+</div>

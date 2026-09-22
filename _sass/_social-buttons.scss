@@ -1,0 +1,64 @@
+/*******************************************************************************
+ * Social / profile buttons (used on the about page).
+ *
+ * Deliberately secondary to the filled "Download CV" button: neutral at rest,
+ * theme-coloured on hover, so the CV stays the one primary action on the page.
+ * Colours come from theme variables, so these follow the light/dark toggle.
+ ******************************************************************************/
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+
+  a.social-btn {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    color: var(--global-text-color);
+    display: inline-flex;
+    font-size: 0.85rem;
+    gap: 0.45rem;
+    line-height: 1.5;
+    padding: 0.32rem 0.8rem;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    white-space: nowrap;
+
+    i {
+      color: var(--global-theme-color);
+      font-size: 1rem;
+      transition: color 0.15s ease-in-out;
+    }
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+      text-decoration: none;
+
+      i {
+        color: var(--global-bg-color);
+      }
+    }
+  }
+
+  // On a phone the labels would wrap awkwardly; keep icons only.
+  @media (max-width: 480px) {
+    gap: 0.4rem;
+
+    a.social-btn {
+      padding: 0.4rem 0.6rem;
+
+      span {
+        display: none;
+      }
+
+      i {
+        font-size: 1.05rem;
+      }
+    }
+  }
+}
