@@ -25,12 +25,12 @@ latest_posts:
 
 > 🟢 **Available July 2027** — Seeking postdoctoral positions and industry research roles in legged robotics & actuator design. [Reach out](mailto:saman@iisc.ac.in).
 
+<a href="/assets/pdf/Aman_s_Resume.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.9rem; background-color: var(--global-theme-color); color: white; padding: 6px 16px; border-radius: 4px; display: inline-block; margin-top: 8px;">📄 Download CV</a>
+
 I am a **PhD researcher in Robotics** at the **[IISc, Bengaluru](https://iisc.ac.in/)**, working in the **[Stochastic Robotics Lab](https://www.stochlab.com/)** under the **Centre for Cyber-Physical Systems [(CPS)](https://cps.iisc.ac.in/)**, advised by **[Dr. Shishir N Y Kolathaya](https://www.shishirny.com/)**.
 
 I completed my **B.Tech in Mechanical Engineering** from **[IIT Roorkee](https://www.iitr.ac.in/)**, where I developed a strong interest in mechanical design, dynamics, and robotics, which led me toward research-driven hardware development.
 
 My research focuses on **robotic actuator design, planetary gearbox optimization, and hardware-centric co-design for legged robots**. I work on building **practical, reproducible systems**, combining computational optimization, automated CAD, and experimental validation.
 
-Find my **[CV here](/assets/pdf/Aman_s_Resume.pdf)**. 
- 
 Follow me on **[Google Scholar](https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en)** / **[GitHub](https://github.com/singhaman1750)** / **[LinkedIn](https://www.linkedin.com/in/aman-singh-21782212b/)** / **[ResearchGate](https://www.researchgate.net/profile/Aman-Singh-201?ev=hdr_xprf)** / **[Twitter / X](https://x.com/singhaman1750)** / **[YouTube](https://www.youtube.com/@robomathslab)** for updates on my latest research and projects.     
