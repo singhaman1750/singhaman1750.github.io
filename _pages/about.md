@@ -23,6 +23,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+> 🟢 **Available July 2027** — Seeking postdoctoral positions and industry research roles in legged robotics & actuator design. [Reach out](mailto:saman@iisc.ac.in).
+
 I am a **PhD researcher in Robotics** at the **[IISc, Bengaluru](https://iisc.ac.in/)**, working in the **[Stochastic Robotics Lab](https://www.stochlab.com/)** under the **Centre for Cyber-Physical Systems [(CPS)](https://cps.iisc.ac.in/)**, advised by **[Dr. Shishir N Y Kolathaya](https://www.shishirny.com/)**.
 
 I completed my **B.Tech in Mechanical Engineering** from **[IIT Roorkee](https://www.iitr.ac.in/)**, where I developed a strong interest in mechanical design, dynamics, and robotics, which led me toward research-driven hardware development.

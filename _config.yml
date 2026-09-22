@@ -7,7 +7,7 @@ first_name: Aman
 middle_name: 
 last_name: Singh
 contact_note: >
-  The best way to reach me is through email(saman@iisc.ac.in) and LinkedIn
+  🟢 Available July 2027 — Seeking postdoctoral positions and industry research roles in legged robotics & actuator design. <a href="mailto:saman@iisc.ac.in">Reach out.</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -186,6 +186,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - plan.md
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
