@@ -90,19 +90,19 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-dtea-a-dual-topology-elastic-actuator-enabling-real-time-switching-between-series-and-parallel-compliance-has-been-accepted-at-ieee-rsj-international-conference-on-intelligent-robots-and-systems-2026-iros-26-sparkles-smile",
           title: 'Our paper DTEA: A Dual-Topology Elastic Actuator Enabling Real-Time Switching Between Series and...',
           description: "",
-          section: "News",},{id: "projects-design-and-development-of-quadruped-robot",
-          title: 'Design and development of quadruped robot',
-          description: "",
+          section: "News",},{id: "projects-robot-platforms-and-locomotion",
+          title: 'Robot Platforms and Locomotion',
+          description: "Building quadrupeds and the control that makes them robust in hardware",
           section: "Projects",handler: () => {
               window.location.href = "/projects/design_and_development_of_legged_robots/";
             },},{id: "projects-design-of-optimal-robotic-actuators",
           title: 'Design of Optimal Robotic Actuators',
-          description: "",
+          description: "Computational design of planetary-gearbox actuators for legged robots",
           section: "Projects",handler: () => {
               window.location.href = "/projects/design_of_optimal_robotic_actuators/";
-            },},{id: "projects-optimal-design-of-legged-robots",
-          title: 'Optimal design of legged robots',
-          description: "",
+            },},{id: "projects-co-design-of-legged-robots",
+          title: 'Co-Design of Legged Robots',
+          description: "Optimizing morphology and actuation jointly against a target behaviour",
           section: "Projects",handler: () => {
               window.location.href = "/projects/optimal_design_of_legged_robots/";
             },},{id: "resources-design-optimization-and-co-design-optimization",
