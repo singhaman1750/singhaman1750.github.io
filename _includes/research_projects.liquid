@@ -1,0 +1,58 @@
+{% comment %}
+  Renders a research theme page's `projects:` front matter as a card grid.
+
+  Each entry supports:
+    title       required
+    img         path under assets/, e.g. assets/img/publication_preview/x.png
+    description one short paragraph (~45 words reads best)
+    links       any of: paper, arxiv, code, website, video, slides
+
+  Used by the pages in _projects/. See _pages/projects.md for the theme index.
+{% endcomment %}
+
+{% if include.projects %}
+  <div class="research-grid">
+    {% for project in include.projects %}
+      <article class="card research-card">
+        {% if project.img %}
+          {%
+            include figure.liquid
+            loading="lazy"
+            path=project.img
+            sizes="(min-width: 768px) 45vw, 90vw"
+            alt=project.title
+            class="research-card-img"
+          %}
+        {% endif %}
+        <div class="research-card-body">
+          <h3>{{ project.title }}</h3>
+          {% if project.description %}
+            <p>{{ project.description }}</p>
+          {% endif %}
+          {% if project.links %}
+            <div class="research-card-links">
+              {% if project.links.paper %}
+                <a class="pill" href="{{ project.links.paper }}" target="_blank" rel="noopener noreferrer">Paper</a>
+              {% endif %}
+              {% if project.links.arxiv %}
+                <a class="pill" href="https://arxiv.org/abs/{{ project.links.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>
+              {% endif %}
+              {% if project.links.code %}
+                <a class="pill" href="{{ project.links.code }}" target="_blank" rel="noopener noreferrer">Code</a>
+              {% endif %}
+              {% if project.links.website %}
+                <a class="pill" href="{{ project.links.website }}" target="_blank" rel="noopener noreferrer">Website</a>
+              {% endif %}
+              {% if project.links.video %}
+                <a class="pill" href="{{ project.links.video }}" target="_blank" rel="noopener noreferrer">Video</a>
+              {% endif %}
+              {% if project.links.slides %}
+                <a class="pill" href="{{ project.links.slides }}" target="_blank" rel="noopener noreferrer">Slides</a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+{% endif %}
