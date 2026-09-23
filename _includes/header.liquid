@@ -102,7 +102,8 @@
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
-                  {%- elsif p.permalink == '/blog/' -%}
+                  {%- elsif parent_link == '/blog/' -%}
+                    {# pagination rewrites the permalink to /blog/index.html, so match the stripped form #}
                     {%- assign url = '/blog/' -%}
                   {%- else -%}
                     {%- assign url = p.url -%}

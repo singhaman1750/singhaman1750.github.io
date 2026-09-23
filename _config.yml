@@ -248,15 +248,15 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, categories] # enables year and category archives (remove if you need to disable one of them).
+    enabled: [year, tags] # single blog filtered by tag; categories are no longer used.
     permalinks:
       year: "/blog/:year/"
-      categories: "/blog/:type/:name/"
+      tags: "/blog/tag/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 # display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["Technical", "Non-technical"] # these categories will be displayed on the front page of your blog
+# display_categories: # the blog is a single feed filtered by tag -- see the tag list in _pages/blog.md
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

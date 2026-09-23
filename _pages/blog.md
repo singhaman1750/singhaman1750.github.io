@@ -2,7 +2,8 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: false
+nav: true
+nav_order: 3.5
 pagination:
   enabled: true
   collection: posts
@@ -28,13 +29,23 @@ pagination:
   </div>
   {% endif %}
 
-  <div class="tag-category-list">
-    <ul class="p-0 m-0">
-      <li><i class="fa-solid fa-tag fa-sm"></i> <a href="{{ '/blog/technical/' | relative_url }}">academic</a></li>
-      <p>&bull;</p>
-      <li><i class="fa-solid fa-tag fa-sm"></i> <a href="{{ '/blog/personal/' | relative_url }}">personal</a></li>
-    </ul>
-  </div>
+  <!-- Every tag used across the posts, so one blog can be filtered instead of split. -->
+  {% assign all_tags = site.tags | sort %}
+  {% if all_tags.size > 0 %}
+    <div class="tag-category-list">
+      <ul class="p-0 m-0">
+        {% for tag in all_tags %}
+          <li>
+            <i class="fa-solid fa-hashtag fa-sm"></i>
+            <a href="{{ tag[0] | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">{{ tag[0] }}</a>
+          </li>
+          {% unless forloop.last %}
+            <p>&bull;</p>
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
@@ -98,7 +109,6 @@ pagination:
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
 
     <li>
 
@@ -134,19 +144,8 @@ pagination:
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
+            <a href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">
               <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
-              {% unless forloop.last %}
-                &nbsp;
-              {% endunless %}
-              {% endfor %}
-          {% endif %}
-
-          {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
               {% unless forloop.last %}
                 &nbsp;
               {% endunless %}
