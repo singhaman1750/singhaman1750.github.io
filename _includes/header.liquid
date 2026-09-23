@@ -103,7 +103,9 @@
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
                   {%- elsif parent_link == '/blog/' -%}
-                    {# pagination rewrites the permalink to /blog/index.html, so match the stripped form #}
+                    {%- comment -%}
+                      Pagination rewrites the permalink to /blog/index.html, so match the stripped form.
+                    {%- endcomment -%}
                     {%- assign url = '/blog/' -%}
                   {%- else -%}
                     {%- assign url = p.url -%}
