@@ -18,7 +18,7 @@ projects:
     links:
       paper: https://dl.acm.org/doi/10.1145/3787370.3787373
       arxiv: "2503.14255"
-      website: https://www.stochlab.com/
+      website: https://aman-singh.in/stoch3-design/
   - title: "Force Control for Robust Quadruped Locomotion"
     img: assets/img/publication_preview/ICRA_2023_Force_control_linear_policy_stoch3.JPG
     description: >
