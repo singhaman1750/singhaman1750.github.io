@@ -25,7 +25,7 @@ latest_posts:
 
 > 🟢 **Available July 2027**: Seeking postdoctoral positions and industry research roles in legged robotics & actuator design. [Reach out](mailto:saman@iisc.ac.in).
 
-<a href="/assets/pdf/Aman_s_Resume.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.9rem; background-color: var(--global-theme-color); color: white; padding: 6px 16px; border-radius: 4px; display: inline-block; margin-top: 8px;">📄 Download CV</a>
+<a href="/assets/pdf/Aman_s_Resume_Sep_2026.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.9rem; background-color: var(--global-theme-color); color: white; padding: 6px 16px; border-radius: 4px; display: inline-block; margin-top: 8px;">📄 Download CV</a>
 
 I am a **PhD researcher in Robotics** at the **[IISc, Bengaluru](https://iisc.ac.in/)**, working in the **[Stochastic Robotics Lab](https://www.stochlab.com/)** under the **Centre for Cyber-Physical Systems [(CPS)](https://cps.iisc.ac.in/)**, advised by **[Dr. Shishir N Y Kolathaya](https://www.shishirny.com/)**.
 

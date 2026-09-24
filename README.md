@@ -60,7 +60,7 @@ Highlights
 - Approach: computational optimization, automated CAD, and experimental validation
 
 Quick links
-- CV: /assets/pdf/Aman_s_Resume.pdf
+- CV: /assets/pdf/Aman_s_Resume_Sep_2026.pdf
 - Google Scholar: https://scholar.google.com/citations?user=7PzY75AAAAAJ&hl=en
 - GitHub: https://github.com/singhaman1750
 - LinkedIn: https://www.linkedin.com/in/aman-singh-21782212b/
