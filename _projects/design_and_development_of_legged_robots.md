@@ -16,7 +16,9 @@ projects:
       and sandwich leg structure buy you — inertia, robustness, serviceability — and what the
       hardware experiments demonstrated.
     links:
+      paper: https://dl.acm.org/doi/10.1145/3787370.3787373
       arxiv: "2503.14255"
+      website: https://www.stochlab.com/
   - title: "Force Control for Robust Quadruped Locomotion"
     img: assets/img/publication_preview/ICRA_2023_Force_control_linear_policy_stoch3.JPG
     description: >
