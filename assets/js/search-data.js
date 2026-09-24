@@ -65,7 +65,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-patent-low-cost-sandwiched-robotic-leg-design-for-legged-locomotion-got-accepted-by-indian-patent-office-ipo-patent-certificate",
           title: 'Our Patent Low-cost sandwiched robotic leg design for legged locomotion got accepted by...',
           description: "",
-          section: "News",},{id: "news-our-paper-a-chain-driven-sandwich-legged-quadruped-robot-design-and-experimental-analysis-got-accepted-at-international-conference-on-advances-in-robotics-air-2025",
+          section: "News",},{id: "news-our-paper-a-chain-driven-sandwich-legged-quadruped-robot-design-and-experimental-analysis-got-accepted-at-international-conference-on-advances-in-robotics-air-2025-arxiv-website",
           title: 'Our Paper A Chain-Driven, Sandwich-Legged Quadruped Robot: Design and Experimental Analysis got accepted...',
           description: "",
           section: "News",},{id: "news-our-paper-comparison-between-external-and-internal-single-stage-planetary-gearbox-actuators-for-legged-robots-got-accepted-at-international-conference-on-advances-in-robotics-air-2025",
