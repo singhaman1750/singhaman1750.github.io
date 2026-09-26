@@ -1,0 +1,24 @@
+<!-- Minimal post list: date + title, grouped by year. Pass the posts as `posts`. -->
+{% assign sorted_posts = include.posts | sort: 'date' | reverse %}
+{% assign posts_by_year = sorted_posts | group_by_exp: 'post', "post.date | date: '%Y'" %}
+<div class="post-archive">
+  {% for year in posts_by_year %}
+    <section class="post-archive-year">
+      <h2 class="post-archive-year-label">{{ year.name }}</h2>
+      <ul>
+        {% for post in year.items %}
+          <li>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %d' }}</time>
+            {% if post.redirect == blank %}
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% elsif post.redirect contains '://' %}
+              <a href="{{ post.redirect }}" target="_blank" rel="noopener noreferrer">{{ post.title }} <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>
+            {% else %}
+              <a href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</div>
