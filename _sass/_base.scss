@@ -876,6 +876,9 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
+          white-space: nowrap; // keep long venue names ("Humanoids 2025") on one line
+          font-size: 0.7rem;
+          padding: 0.2em 0.4em;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           color: var(--global-card-bg-color) !important;
