@@ -1,0 +1,28 @@
+---
+layout: null
+title: resources
+permalink: /resources/
+nav: true
+nav_order: 6
+nav_url: https://aman-singh.in/Legged-Robots/
+---
+
+<!-- The resources now live on their own site (source: singhaman1750/Legged-Robots).
+     This page is the navbar entry (header.liquid links to nav_url) and the
+     redirect for old /resources/ URLs. -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta http-equiv="refresh" content="0; url={{ page.nav_url }}" />
+    <link rel="canonical" href="{{ page.nav_url }}" />
+    <meta name="robots" content="noindex" />
+    <script>
+      window.location.replace("{{ page.nav_url }}");
+    </script>
+  </head>
+  <body>
+    <p>Resources have moved to <a href="{{ page.nav_url }}">{{ page.nav_url }}</a>.</p>
+  </body>
+</html>
